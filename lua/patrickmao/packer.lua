@@ -81,4 +81,12 @@ return require("packer").startup(function(use)
     })
 
     use 'ThePrimeagen/harpoon'
+    use 'ray-x/go.nvim'
+    use 'ray-x/guihua.lua'
+    use 'jiangmiao/auto-pairs'
+
+    use 'mfussenegger/nvim-dap'
+    use { "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap" } }
+    use 'rcarriga/nvim-notify'
+    use 'tpope/vim-fugitive'
 end)

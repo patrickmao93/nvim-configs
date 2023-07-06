@@ -85,6 +85,11 @@ _G.packer_plugins = {
     path = "/Users/patrickmao/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["auto-pairs"] = {
+    loaded = true,
+    path = "/Users/patrickmao/.local/share/nvim/site/pack/packer/start/auto-pairs",
+    url = "https://github.com/jiangmiao/auto-pairs"
+  },
   catppuccin = {
     loaded = true,
     path = "/Users/patrickmao/.local/share/nvim/site/pack/packer/start/catppuccin",
@@ -114,6 +119,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/patrickmao/.local/share/nvim/site/pack/packer/start/gitlinker.nvim",
     url = "https://github.com/ruifm/gitlinker.nvim"
+  },
+  ["go.nvim"] = {
+    loaded = true,
+    path = "/Users/patrickmao/.local/share/nvim/site/pack/packer/start/go.nvim",
+    url = "https://github.com/ray-x/go.nvim"
+  },
+  ["guihua.lua"] = {
+    loaded = true,
+    path = "/Users/patrickmao/.local/share/nvim/site/pack/packer/start/guihua.lua",
+    url = "https://github.com/ray-x/guihua.lua"
   },
   harpoon = {
     loaded = true,
@@ -160,10 +175,25 @@ _G.packer_plugins = {
     path = "/Users/patrickmao/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "/Users/patrickmao/.local/share/nvim/site/pack/packer/start/nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
+  },
+  ["nvim-dap-ui"] = {
+    loaded = true,
+    path = "/Users/patrickmao/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
+    url = "https://github.com/rcarriga/nvim-dap-ui"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/Users/patrickmao/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-notify"] = {
+    loaded = true,
+    path = "/Users/patrickmao/.local/share/nvim/site/pack/packer/start/nvim-notify",
+    url = "https://github.com/rcarriga/nvim-notify"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
@@ -209,6 +239,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/patrickmao/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/Users/patrickmao/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
   }
 }
 

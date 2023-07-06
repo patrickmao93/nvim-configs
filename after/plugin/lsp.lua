@@ -1,6 +1,6 @@
 local lsp = require("lsp-zero").preset({})
 
-lsp.on_attach(function(client, bufnr)
+lsp.on_attach(function(_, bufnr)
     lsp.default_keymaps({
         buffer = bufnr,
         preserve_mappings = true,
@@ -19,14 +19,7 @@ lspconfig.gopls.setup({
     },
 })
 
-vim.api.nvim_create_autocmd("BufWritePre", {
-    pattern = "*.go",
-    callback = function()
-        vim.lsp.buf.code_action({ context = { only = { "source.organizeImports" } }, apply = true })
-    end,
-})
-
 lsp.setup()
 
 vim.o.updatetime = 250
-vim.cmd([[autocmd! CursorHold * lua vim.diagnostic.open_float(nil, {focus=false})]])
+-- vim.cmd([[autocmd! CursorHold * lua vim.diagnostic.open_float(nil, {focus=false})]])
